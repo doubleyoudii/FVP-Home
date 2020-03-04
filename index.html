@@ -11,6 +11,11 @@
 
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
@@ -21,78 +26,130 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
-    <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="images/topicon.png" />
+    <title>FVP || Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark rounded">
-      <a class="navbar-brand" href="#">First Vita Plus</a>
+    <nav class="navbar navbar-expand-md navbar-light rounded-bottom ">
+      <a class="navbar-brand" href="#"
+        ><img src="/images/bg/FVP logo.png" alt="Logo"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
         aria-controls="navbarNav"
-        aria-expanded="false"
+        aria-expanded="true"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About Us</a>
+          <li class="nav-item ">
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/aboutus.html"
+              target="_blank"
+              >About Us</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Dealership</a>
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/dealership.html"
+              target="_blank"
+              >Dealership</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/products.html"
+              target="_blank"
+              >Products</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/news.html"
+              target="_blank"
+              >News</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/speakers.html"
+              target="_blank"
+              >Features</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a
+              class="nav-link"
+              href="http://firstvitaplus.net/corpoffice.html"
+              target="_blank"
+              >Contact Us</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Become a dealer</a>
+            <a class="nav-link" href="#dealer">Become A Dealer</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <header class="header">
-      <div>
-        <h1>Good Vita Morning</h1>
-      </div>
-      <div class="header__info">
-        <!-- <div class="header__info--image"><img src="/images/bg/banner.png" alt="cover"></div> -->
-        <div class="header__info--name">
-          <p>Welcome to My site at First Vita Plus</p>
-          <h2>Juan Dela Cruz</h2>
-        </div>
-        <div class="header__info--others">
-          <ul>
-            <li>Birth Date</li>
-            <li>Dealership Date</li>
-            <li>B.A Number</li>
-          </ul>
-        </div>
-      </div>
+      <img
+        src="images/bg/banner.png"
+        alt="header image"
+        class="header__responsive"
+      />
     </header>
 
     <main>
+      <!-- Start of PROFILE PART -->
+
+      <!-- <section class="info">
+        <div class="info__head">
+          <div class="header__info--image"><img src="/images/bg/banner.png" alt="cover"></div>
+
+          <div class="info__picframe">
+            <img src="/images/profile pic.png" alt="profile pic">
+          </div>
+
+          <div class="info__welcome">
+            <p>Welcome to My site at First Vita Plus</p>
+            <h2>Juan Dela Cruz</h2>
+          </div>
+          <div class="info__basic">
+            <div class="container">
+              <div class="row no-gutters">
+                <div class="col-sm-4">Birthdate</div>
+                <div class="col-sm-4">dealership</div>
+                <div class="col-sm-4">OTHER INFO</div>
+                <div class="col-sm-4">other info</div>
+                <div class="col-sm-4">other info</div>
+                <div class="col-sm-4">other info</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--End of PROFILE PART -->
+
       <section class="section-about ">
         <div class="container u-margin-bottom-medium">
-          <h3 class=" u-text-center ">
+          <h3 class="about__heading u-text-center ">
             <a href="http://firstvitaplus.net/overview.html"
               >What is First Vita Plus
             </a>
           </h3>
-          <p>
+          <p class="about__description">
             First Vita Plus is your vitamin and vitality in a drink and this
             website will show you how wellness, wholeness and well-being can be
             within your reach! Explore the natural wonders of our all natural
@@ -121,7 +178,7 @@
           <div class="row justify-content-sm-center">
             <!-- Dont forget the divs for column bootstrap -->
             <div class="col-md-2">
-              <div class="benefit">
+              <div class="benefit ">
                 <a href="http://firstvitaplus.net/vit_malunggay.html"
                   ><img
                     src="/images/gulay/fvp_malungay.png"
@@ -130,7 +187,9 @@
                 /></a>
                 <div>
                   <p class="benefit__paragraph--main">
-                    <a href="">Malunggay <span>(Moringa Oleifera)</span></a>
+                    <a href="http://firstvitaplus.net/vit_malunggay.html"
+                      >Malunggay <span>(Moringa Oleifera)</span></a
+                    >
                   </p>
                   <p class="benefit__paragraph--sub">
                     Scientific research has proven that these humble leaves are
@@ -242,7 +301,7 @@
                   A more convinient way of making all your FVP product
                   purchases.
                 </p>
-                <button>
+                <button class="btn btn--1">
                   <a
                     href="http://www.fvp.ph/login?back=my-account
                   "
@@ -262,7 +321,7 @@
           </div>
         </div>
 
-        <div class="dealer">
+        <div class="dealer" id="dealer">
           <div class="container">
             <div class="dealer__intro ">
               <h3>Be a Vita Plus Dealer now!</h3>
@@ -348,7 +407,9 @@
           <div class="row no-gutters">
             <div class="col-sm-4">
               <div class="others">
-                <a href="http://firstvitaplus.net/newsandevents.html"
+                <a
+                  href="http://firstvitaplus.net/newsandevents.html"
+                  target="_blank"
                   ><img
                     src="/images/others/news promos and events.png"
                     alt="news"
@@ -356,7 +417,9 @@
                 /></a>
                 <div class="others__description">
                   <p>
-                    <a href="http://firstvitaplus.net/newsandevents.html"
+                    <a
+                      href="http://firstvitaplus.net/newsandevents.html"
+                      target="_blank"
                       >News, Promos, and events</a
                     >
                   </p>
@@ -369,14 +432,18 @@
             </div>
             <div class="col-sm-4">
               <div class="others">
-                <a href="https://gen.fvp.ph/"
+                <a href="https://gen.fvp.ph/" target="_blank"
                   ><img
                     src="/images/others/geneology.png"
                     alt="genealogy"
                     class="others__image"
                 /></a>
                 <div class="others__description">
-                  <p><a href="https://gen.fvp.ph/">Request Genealogy</a></p>
+                  <p>
+                    <a href="https://gen.fvp.ph/" target="_blank"
+                      >Request Genealogy</a
+                    >
+                  </p>
                   <p>
                     See your latest cut-off Genealogy Repost. A valid and active
                     email address is required.
@@ -386,7 +453,7 @@
             </div>
             <div class="col-sm-4">
               <div class="others">
-                <a href="http://firstvitaplus.net/speakers.html"
+                <a href="http://firstvitaplus.net/speakers.html" target="_blank"
                   ><img
                     src="/images/others/testimony.png"
                     alt="testimony"
@@ -394,7 +461,9 @@
                 /></a>
                 <div class="others__description">
                   <p>
-                    <a href="http://firstvitaplus.net/speakers.html"
+                    <a
+                      href="http://firstvitaplus.net/speakers.html"
+                      target="_blank"
                       >Testimony</a
                     >
                   </p>
@@ -408,7 +477,9 @@
             </div>
             <div class="col-sm-4">
               <div class="others">
-                <a href="http://firstvitaplus.net/prodcenters.html"
+                <a
+                  href="http://firstvitaplus.net/prodcenters.html"
+                  target="_blank"
                   ><img
                     src="/images/others/products thumbnail.png"
                     alt="products"
@@ -416,7 +487,9 @@
                 /></a>
                 <div class="others__description">
                   <p>
-                    <a href="http://firstvitaplus.net/prodcenters.html"
+                    <a
+                      href="http://firstvitaplus.net/prodcenters.html"
+                      target="_blank"
                       >Products</a
                     >
                   </p>
@@ -430,7 +503,9 @@
             </div>
             <div class="col-sm-4">
               <div class="others">
-                <a href="http://firstvitaplus.net/corpoffice.html"
+                <a
+                  href="http://firstvitaplus.net/corpoffice.html"
+                  target="_blank"
                   ><img
                     src="/images/others/philippines map.png"
                     alt="ph"
@@ -438,7 +513,9 @@
                 /></a>
                 <div class="others__description">
                   <p>
-                    <a href="http://firstvitaplus.net/corpoffice.html"
+                    <a
+                      href="http://firstvitaplus.net/corpoffice.html"
+                      target="_blank"
                       >FVP Philippines</a
                     >
                   </p>
@@ -451,7 +528,7 @@
             </div>
             <div class="col-sm-4">
               <div class="others">
-                <a href="http://firstvitaplus.net/global.html"
+                <a href="http://firstvitaplus.net/global.html" target="_blank"
                   ><img
                     src="/images/others/world map.png"
                     alt="world"
@@ -459,7 +536,9 @@
                 /></a>
                 <div class="others__description">
                   <p>
-                    <a href="http://firstvitaplus.net/global.html"
+                    <a
+                      href="http://firstvitaplus.net/global.html"
+                      target="_blank"
                       >FVP International</a
                     >
                   </p>
@@ -476,6 +555,45 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__navigation u-text-center">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a
+              href="https://twitter.com/fvpph"
+              class="footer__link"
+              target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://www.instagram.com/fvpph"
+              class="footer__link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://www.facebook.com/FVPMCOfficial/"
+              class="footer__link"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__logo">
+        <img
+          src="/images/fvp_FVP Logo.png"
+          alt="fvplogo"
+          class="footer__logo-1"
+        />
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
